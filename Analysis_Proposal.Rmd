@@ -1,26 +1,44 @@
 ---
-title: "Analysis Proposal" #Needs to be changed 
-subtitle : "STAT 432 FA2019 - Team LHRK"
-abstract: | #Needs to be changed 
-output: html_document
+title: "Analysis Proposal"
+author:
+- Eric Jong Bum Kim (jekim3)
+- Israel Reyes (ir2)
+- Jihee Hwang (jhwang55)
+- Hyun Suk Lee ()
 date: "November 15, 2019"
-author: 
-  - Eric Jong Bum Kim (jekim3)
-  - Israel Reyes (ir2)
-  - Jihee Hwang (jhwang55)
-  - Hyun Suk Lee ()
+output:
+  pdf_document: default
+  html_document: default
+subtitle: STAT 432 FA2019 - Team LRHK
+abstract: null
 ---
 
 \newpage 
 
+# Goal
+
+Classification model predicting the company 
+
 # Introduction
+
+Eric 
 
 # Data Description
 
-# Background Informaton On Data
+Eric
+
+# Background Informaton On Data 
+
+Jihee
 
 # Statistical Learning Task
 
+Israel 
+
 # Data Loading
 
+Hyun Suk
+
 # Data Modeling 
+
+Hyun Suk
