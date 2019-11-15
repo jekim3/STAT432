@@ -1,30 +1,26 @@
 ---
-title: "Analysis Proposal"
+title: "Analysis Proposal" #Needs to be changed 
+subtitle : "STAT 432 FA2019 - Team LHRK"
+abstract: | #Needs to be changed 
 output: html_document
+date: "November 15, 2019"
+author: 
+  - Eric Jong Bum Kim (jekim3)
+  - Israel Reyes (ir2)
+  - Jihee Hwang (jhwang55)
+  - Hyun Suk Lee ()
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+\newpage 
 
-## R Markdown
+# Introduction
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+# Data Description
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+# Background Informaton On Data
 
-```{r cars}
-summary(cars)
-```
+# Statistical Learning Task
 
-## Including Plots
+# Data Loading
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-net id: ir2
+# Data Modeling 
