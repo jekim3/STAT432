@@ -1,5 +1,5 @@
 ---
-title: "Analysis Proposal"
+title: "Who Dominates Taxi Business?"
 author:
 - Eric Jong Bum Kim (jekim3)
 - Israel Reyes (ir2)
@@ -10,22 +10,28 @@ output:
   pdf_document: default
   html_document: default
 subtitle: STAT 432 FA2019 - Team LRHK
-abstract: null
+abstract: Coming Soon
 ---
 
 \newpage 
 
 # Goal
 
-Classification model predicting the company 
+Classification model predicting the company (will be deleted later)
 
 # Introduction
 
-Eric 
+Uber and Lyft have became one of the most dominant taxi-service buisness around the major cities around the world, espeically big cities in United States. However, when one visits big cities such as New York or Chicago, one realizes that there are plenty of tradiaiotnal yellow cabs around the city. With this in mind, our grouop decided to study the tradiational taxi market in the big city. With major taxi service companies still providing means of transportation, can we analyze the traditional taxi market from 2013 to present day. 
+
+In an attempt to construct a meaningful and effective way to detect the taxi service provider comapny in Chicago, various statistical learning techniques will be applied to Chicago Taxi Service data from 2013 to present. The main goal of our model is to see if a certain taxi service company can be mapped according to the finanical and trip logistics of each fares in Chicago. If such is possible, this could provide an arugments about those that critizies Uber and Lyft as two monoplostic companies in taxi service industries. Possibly decide if staying in the traditioanl taxi business is worth it or not. 
 
 # Data Description
 
-Eric
+The Chicago Taxi Trips data is from the Kaggle datasets. 
+
+There are 23 columns of information about each tripes. There are trip logistics information including trip starting and ending timestamps, trip duration and miles, pick up and drop off locations, latitude, and longitude. In additiona, there are finnanical-related information of each trips including, trip fare, tips, number of tolls, extra charges, total trip costs, and payment methods. Finally, third catergories include infomation about taxi and its company. More explanation of each columns can be found in the appendix of the file at the end of the project. 
+
+(more will be added once data is loaded)
 
 # Background Informaton On Data 
 
