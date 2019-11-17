@@ -19,8 +19,8 @@ author:
 
 # Background Informaton On Data
 
-# Statistical Learning Task
-
+# Statistical Learning Task (TODO)
+classification models will be used to accomplish the goal of being able to predict and classify taxi company based on the given features. 
 # Data Loading
 
 # Data Modeling 
