@@ -69,9 +69,12 @@ Hyun Suk
 
 
 
-
 [^1]: [Chicago Taxi Trips Data](https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
+
 [^2]: [Digital Hub: Chicago Taxi Data Released](https://digital.cityofchicago.org/index.php/chicago-taxi-data-released/)
+
 [^3]: [City of Chicago: BACP](https://www.chicago.gov/city/en/depts/bacp/provdrs/vehic.html)
-[^4]: [Chicago Data Portal: Census Tracts](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Census-Tracts-2010/5jrd-6zik)
+
+[^4] : [Chicago Data Portal: Census Tracts](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Census-Tracts-2010/5jrd-6zik)
+
 [^5]: [Chicago Data Portal: Community Areas](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6)
