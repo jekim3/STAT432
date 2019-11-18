@@ -35,7 +35,19 @@ There are 23 columns of information about each trips. There are trip logistics i
 
 # Background Information On Data 
 
-Jihee
+The dataset originates from the Chicago Digital Hub [^2] and was accessed through Kaggle [^1]. The safety and quality of taxi rides in Chicago are guaranteed through BACP [^3] (Department of Business Affairs and Consumer Protection) where they are authorized to collect information on taxi rides. This data is reported periodically through two major payment processors in which not all trips are reported but is believed to cover most of the taxi rides in Chicago. Based on this data reporting process, the dataset contains over 100 million taxi rides in Chicago from 2013. 
+
+Due to private concerns, following measures were implemented:
+
+- Each trip appears with delay in the data, long after the completion of the ride
+- The Taxi ID is consistent for a given taxi medallion number, but was created specifically for the dataset
+- Location is provided only at the Census Tract [^4] and Community Area levels [^5]
+
+Other corrections applied to the data include:
+
+- Trip times less than zero or greater than 86,400 seconds are removed.
+- Trip lengths less than zero or greater than 3,500 miles are removed.
+- If any component of the trip cost is less than $0 or greater than $10,000, all components of the trip cost are removed.
 
 # Statistical Learning Task
 
@@ -48,3 +60,9 @@ Hyun Suk
 # Data Modeling 
 
 Hyun Suk
+
+[^1]: [Chicago Taxi Trips Data](https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
+[^2]: [Digital Hub: Chicago Taxi Data Released](https://digital.cityofchicago.org/index.php/chicago-taxi-data-released/)
+[^3]: [City of Chicago: BACP](https://www.chicago.gov/city/en/depts/bacp/provdrs/vehic.html)
+[^4]: [Chicago Data Portal: Census Tracts](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Census-Tracts-2010/5jrd-6zik)
+[^5]: [Chicago Data Portal: Community Areas](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6)
