@@ -1,26 +1,50 @@
 ---
-title: "Analysis Proposal" #Needs to be changed 
-subtitle : "STAT 432 FA2019 - Team LHRK"
-abstract: | #Needs to be changed 
-output: html_document
+title: "Who Dominates Taxi Business?"
+author:
+- Eric Jong Bum Kim (jekim3)
+- Israel Reyes (ir2)
+- Jihee Hwang (jhwang55)
+- Hyun Suk Lee ()
 date: "November 15, 2019"
-author: 
-  - Eric Jong Bum Kim (jekim3)
-  - Israel Reyes (ir2)
-  - Jihee Hwang (jhwang55)
-  - Hyun Suk Lee ()
+output:
+  pdf_document: default
+  html_document: default
+subtitle: STAT 432 FA2019 - Team LRHK
+abstract: Coming Soon
 ---
 
 \newpage 
 
+# Goal
+
+Classification model predicting the company (will be deleted later)
+
 # Introduction
+
+Uber and Lyft have became one of the most dominant taxi-service business around the major cities around the world, especially big cities in United States. However, when one visits big cities such as New York or Chicago, one realizes that there are plenty of traditional yellow cabs around the city. With this in mind, our group decided to study the traditional taxi market in the big city. With major taxi service companies still providing means of transportation, can we analyze the traditional taxi market from 2013 to present day. 
+
+In an attempt to construct a meaningful and effective way to detect the taxi service provider company in Chicago, various statistical learning techniques will be applied to Chicago Taxi Service data from 2013 to present. The main goal of our model is to see if a certain taxi service company can be mapped according to the financial and trip logistics of each fares in Chicago. If such is possible, this could provide an arguments about those that criticizes Uber and Lyft as two monopolistic companies in taxi service industries. Possibly decide if staying in the traditional taxi business is worth it or not. 
 
 # Data Description
 
-# Background Informaton On Data
+The Chicago Taxi Trips data is from the Kaggle data sets. 
 
-# Statistical Learning Task (TODO)
-classification models will be used to accomplish the goal of being able to predict and classify taxi company based on the given features. 
+There are 23 columns of information about each trips. There are trip logistics information including trip starting and ending time stamps, trip duration and miles, pick up and drop off locations, latitude, and longitude. In additions, there are financial-related information of each trips including, trip fare, tips, number of tolls, extra charges, total trip costs, and payment methods. Finally, third categories include information about taxi and its company. More explanation of each columns can be found in the appendix of the file at the end of the project. 
+
+(more will be added once data is loaded)
+
+# Background Information On Data 
+
+Jihee
+
+# Statistical Learning Task
+
+That being said, the statistical learning task to accomplish this goal will be with the means of classification models. Given certain features of the dataset like the geographical location, the length of the trip, cost and many others we will be classifying the company that corresponding trip applies to. It is immediately apparent that binary classification models are out of the question unless we would like to target a specific company to make it the positive class meanwhile the others are grouped into another classification. The problem with this however is that could potentially make the dataset uneven and although there are methods to combat this problem, we would have to model depending how many unique companies are in the dataset. Multiclass classification would have to be the main method for our goal with use of K-Nearest Neighbors and Random Forests along with cross validation, where we will be using 2 metrics to maximize being accuracy and sensitivity. 
+
 # Data Loading
 
+Hyun Suk
+
 # Data Modeling 
+
+Hyun Suk
