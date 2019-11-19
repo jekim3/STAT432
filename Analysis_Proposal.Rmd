@@ -57,11 +57,16 @@ That being said, the statistical learning task to accomplish this goal will be w
 
 # Data Loading
 
-Hyun Suk
+```{r data loading}
+taxi_df = read.csv()
+```
+
 
 # Data Modeling 
 
-Hyun Suk
+```{r initial_modeling}
+
+```
 
 
 
