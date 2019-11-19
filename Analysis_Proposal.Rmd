@@ -7,8 +7,8 @@ author:
 - Hyun Suk Lee ()
 date: "November 15, 2019"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 subtitle: STAT 432 FA2019 - Team LRHK
 abstract: Coming Soon
 ---
@@ -57,13 +57,15 @@ That being said, the statistical learning task to accomplish this goal will be w
 
 # Data Loading
 
+(Hyun Suk)
 ```{r data loading}
-taxi_df = read.csv()
+
 ```
 
 
 # Data Modeling 
 
+(Hyun Suk)
 ```{r initial_modeling}
 
 ```
